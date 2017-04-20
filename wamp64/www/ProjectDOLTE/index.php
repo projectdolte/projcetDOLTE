@@ -92,7 +92,7 @@ $.ajax( { type : 'POST',
 
 <!-- Draw webcam frame -->
 <p id="results">Results:</p>
-<canvas id="canvas" width=300 height=300></canvas>
+<canvas id="canvas" width=1 height=50></canvas>
 
 
 <script>
@@ -168,10 +168,12 @@ function animate() {
 </script>
 
 
+<audio controls autoplay>
+	<source src="ProjectDOLTE.mp3" type="audio/mpeg">
+</audio>
 
 
-
-
+<br>
 
 
 
